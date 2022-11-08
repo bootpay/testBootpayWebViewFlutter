@@ -47,5 +47,7 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+    <key>NSFaceIDUsageDescription</key>
+    <string>결제 시 본인확인 수단으로 사용됩니다.</string>
 </dict>
 </plist>

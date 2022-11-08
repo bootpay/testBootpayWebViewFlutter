@@ -34,7 +34,7 @@ dependencies:
   get: ^4.6.5
   webview_flutter: 3.0.4
   bootpay: 4.4.2
-  bootpay_bio: 4.4.6
+  bootpay_bio: 4.4.7
 #  bootpay_webview_flutter: 3.2.44
 
 
