@@ -33,7 +33,9 @@ dependencies:
     sdk: flutter
   get: ^4.6.5
   webview_flutter: 3.0.4
-  bootpay_webview_flutter: 3.2.44
+  bootpay: 4.4.2
+  bootpay_bio: 4.4.6
+#  bootpay_webview_flutter: 3.2.44
 
 
   # The following adds the Cupertino Icons font to your application.

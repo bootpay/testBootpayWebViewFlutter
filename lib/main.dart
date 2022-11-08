@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:test_bootpay_webview/bootpay_webview_page.dart';
 import 'package:test_bootpay_webview/flutter_webview_page.dart';
+import 'package:test_bootpay_webview/bootpay_bio_page.dart';
+import 'package:test_bootpay_webview/bootpay_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -53,6 +55,14 @@ class _MyHomePageState extends State<MyHomePage> {
               TextButton(
                   onPressed: () => Get.to(FlutterWebViewPage()),
                   child: const Text('2. 플러터 웹앱 테스트', style: TextStyle(fontSize: 16.0))
+              ),
+              TextButton(
+                  onPressed: () => Get.to(BootpayPage()),
+                  child: const Text('3. 부트페이 테스트', style: TextStyle(fontSize: 16.0))
+              ),
+              TextButton(
+                  onPressed: () => Get.to(BootpayBioPage()),
+                  child: const Text('4. 생체인증 테스트', style: TextStyle(fontSize: 16.0))
               ),
             ],
           ),
