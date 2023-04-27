@@ -103,6 +103,8 @@ class _FlutterWebViewPageState extends State<FlutterWebViewPage> {
     // #enddocregion platform_features
 
     controller
+    // ..setT
+
       ..setJavaScriptMode(JavaScriptMode.unrestricted)
       ..setBackgroundColor(const Color(0x00000000))
       ..setNavigationDelegate(

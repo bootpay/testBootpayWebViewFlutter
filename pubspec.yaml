@@ -32,12 +32,12 @@ dependencies:
   flutter:
     sdk: flutter
   get: ^4.6.5
-  webview_flutter: 4.0.2
+  webview_flutter: 4.2.0
 #  bootpay: 4.4.2
 #  bootpay_bio: 4.4.7
 #  daum_postcode_search: ^0.0.2
 #  flutter_widget_from_html: 0.8.5
-  bootpay_webview_flutter: 4.0.28
+  bootpay_webview_flutter: 4.2.0
   path_provider: 2.0.12
 
 

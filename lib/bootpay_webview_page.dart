@@ -103,6 +103,7 @@ class _BootpayWebViewPageState extends State<BootpayWebViewPage> {
     // #enddocregion platform_features
 
     controller
+      ..enableZoom(true)
       ..setJavaScriptMode(JavaScriptMode.unrestricted)
       ..setBackgroundColor(const Color(0x00000000))
       ..setNavigationDelegate(
@@ -144,6 +145,7 @@ Page resource error:
         },
       )
       ..loadRequest(Uri.parse('https://dev-js.bootapi.com/test/payment/'));
+
 
     // #docregion platform_features
     if (controller.platform is AndroidWebViewController) {
